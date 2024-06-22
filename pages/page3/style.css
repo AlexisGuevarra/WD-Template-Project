@@ -1,0 +1,187 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'fira sans', sans-serif;
+    background: #ec7070;
+    text-align: center;
+  }
+  
+  .landing-page {
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+  }
+  
+  h2 {
+    font-size: 3em;
+    margin-bottom: .5em;
+  }
+  
+  p {
+    font-size: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .buttons .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    background: #041527;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'fira sans', sans-serif;
+    background: #ff9090;
+    text-align: center;
+  }
+  
+  .hero-gallery {
+    padding: 50px;
+  }
+  
+  .heroes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .hero {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #hero1 {
+    background-image: url('hero1.jpg');
+  }
+  
+  #hero2 {
+    background-image: url('hero2.jpg');
+  }
+  
+  #hero3 {
+    background-image: url('hero3.jpg');
+  }
+  
+  #hero4 {
+    background-image: url('hero4.jpg');
+  }
+  
+  #hero5 {
+    background-image: url('hero5.jpg');
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 20px;
+    background: #10171e;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    
+    background: #03172d;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'fira sans', sans-serif;
+    background: #690069;
+    text-align: center;
+  }
+  
+  .card-gallery {
+    padding: 50px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #card1 {
+    background-image: url('card1.jpg');
+  }
+  
+  #card2 {
+    background-image: url('card2.jpg');
+  }
+  
+  #card3 {
+    background-image: url('card3.jpg');
+  }
+  
+  #card4 {
+    background-image: url('card4.jpg');
+  }
+  
+  #card5 {
+    background-image: url('card5.jpg');
+  }
+  
+  .animated {
+    transition: transform 0.3s;
+  }
+  
+  .animated:hover {
+    transform: scale(1.1);
+  }
+  
+  #card6 {
+    background-image: url('card6.jpg');
+  }
+  
+  #card7 {
+    background-image: url('card7.jpg');
+  }
+  
+  #card8 {
+    background-image: url('card8.jpg');
+  }
+  
+  #card9 {
+    background-image: url('card9.jpg');
+  }
+  
+  #card10 {
+    background-image: url('card10.jpg');
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 20px;
+    background: #10171e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
